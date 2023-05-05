@@ -438,14 +438,16 @@ h6 {
 
 /* PHONE OR TABLET IN PORTRAIT */
 @media screen and (orientation: portrait) and (min-width: 0px) and (max-width:1000px) { 
-  #hero .col-xl-auto { padding-top:10px; }
+  #hero .col-xl-auto { padding-top:20px; }
   #hero h1 { font-size: 30px; }
+  #hero img { height: 400px; }
 }
 
 /* PHONE OR TABLET IN LANDSCAPE */
 @media screen and (orientation: landscape) and (min-width: 0px) and (max-width:1000px) {  
   #hero .col-xl-auto { padding-top:20px; }
   #hero h1 { font-size: 30px; }
+  #hero img { height: 400px; }
 }
 
 /* DESKTOP OR LAPTOP */
