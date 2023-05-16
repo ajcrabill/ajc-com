@@ -119,11 +119,12 @@
             
           A former tech startup entrepreneur and avid volunteer, when he is not providing education leadership and coaching across the nation, he still enjoys coding, training high schoolers in student-led restorative practices, experimenting with flavorful and very spicy vegan recipes in his kitchen, serving as a CASA volunteer, and zooming around on his electric unicycle. Inspired by his parents who fostered more than 80 children, Crabill has mentored dozens of young people, has helped raise five young people, and will not be surprised when God sends another young person to his open door.<br /><br />
           </div>
-          
-          
+                 
+          <div class="bio" id="div8" name="bioblock2">He's ok.<br/></div>
+
           <div class="selector"><br />
           <hr class="divide" /><br /><br /><span class="selection">What size bio?
-          <select id="dropdown">
+          <select id="dropdown"  onchange="twoWordBio();">
             <option value="div1">50 Word Version</option>
             <option value="div2">100 Word Version</option>
             <option value="div3">150 Word Version</option>
@@ -131,24 +132,43 @@
             <option value="div5">400 Word Version</option>
             <option value="div6">500 Word Version</option>
             <option value="div7">1000 Word Version</option>
+            <option value="div8">Complete Version</option>
             </select></span><br /><br /><br /></div>
           
           
           
           <div class="bio" name="biofooter">
-          School Board Governance Related Videos<ul style="text-align: left;"><li><a href="https://youtu.be/M_A3EOQquBc">Overview in Texas</a> (3min)&nbsp;</li><li><a href="https://youtu.be/5LKvHIzozL4">Overview in Ohio</a> (2min)&nbsp;</li><li><a href="https://youtu.be/C8Iw4_OmyjY">Presentation in Colorado</a> (15min)&nbsp;</li><li><a href="https://youtu.be/5mhEo-QrMtE">Overview from North Dakota</a> (3min)&nbsp;</li><li><a href="https://youtu.be/dfPWmNcYL5w">Presentation in New Mexico</a> (8min)&nbsp;</li><li><a href="https://youtu.be/CGNSwwvyxTk">Interview in Georgia</a> (50min)</li></ul><br />
+          School Board Governance Related Videos
+          <ul style="text-align: left;">
+            <li><a href="https://youtu.be/M_A3EOQquBc">Overview in Texas</a> (3min)&nbsp;</li>
+            <li><a href="https://youtu.be/5LKvHIzozL4">Overview in Ohio</a> (2min)&nbsp;</li>
+            <li><a href="https://youtu.be/C8Iw4_OmyjY">Presentation in Colorado</a> (15min)&nbsp;</li>
+            <li><a href="https://youtu.be/5mhEo-QrMtE">Overview from North Dakota</a> (3min)&nbsp;</li>
+            <li><a href="https://youtu.be/dfPWmNcYL5w">Presentation in New Mexico</a> (8min)&nbsp;</li>
+            <li><a href="https://youtu.be/CGNSwwvyxTk">Interview in Georgia</a> (50min)</li>
+          </ul><br />
             
             
           Recent School Board Governance Related Media
           <ul style="text-align: left;">
+            <li><a href="https://www.buzzsprout.com/1842285/12846882-effective-schools-systems-and-school-outcomes-vs-adult-inputs-with-aj-crabill">Effective School Systems & Student Outcomes</a></li>
             <li><a href="https://content.act2network.com/act-2-network-content/putting-student-needs-first">Putting Student Needs First</a></li>
             <li><a href="https://www.cognia.org/leader-chat-board-governance-and-leadership-implications-with-aj-crabill/">Board Governance &amp; Leadership Implications</a></li>
             <li><a href="https://www.wfae.org/education/2021-12-23/with-blunt-talk-and-discipline-texas-consultant-tries-to-focus-cms-school-board-on-kids">Focus School Board On Kids</a></li>
             <li><a href="https://www.sfexaminer.com/our_sections/cautious-hope-for-sfusd-dare-we-dream-reform-is-real-this-time/article_243bc8be-0796-11ed-996f-1f8550471440.html">Cautious Hope</a></li> 
             <li><a href="https://www.postandcourier.com/education-lab/ccsd-trustees-changing-how-they-run-their-meetings-here-s-how-that-looks-in-other/article_691e8918-2a13-11ed-829c-5713c44e28b5.html">Trustees Changing How They Run Their Meetings</a></li>
             <li><a href="https://tulsaworld.com/opinion/editorial/editorial-tps-board-need-to-continue-with-efforts-to-be-more-effective/article_d7dd5022-0886-11ed-a296-d31832b8e40f.html">Board Needs To Continue</a></li>
-            </ul></div>
+            </ul><br/>
+
+          Recent Restorative Practices Related Media
+          <ul style="text-align: left;">
+            <li><a href="https://www.dispatch.com/story/special/2023/05/05/student-project-matt-barnes-feels-student-led-conflict-resolution-needed-in-schools-angel-pinto/70170843007/">Student-led Conflict Resolution</a></li>
+            <li><a href="https://twitter.com/mnicholson_mike/status/1657194523213086721"></a></li>
+          </ul><br/>
+
+        </div>
           
+            
           
           <script type='text/javascript'><!--
           
@@ -180,6 +200,22 @@
             var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
           
           }  
+
+        function twoWordBio()
+        {
+          var rando = Math.floor(Math.random() * 3);
+        
+          switch (rando) 
+          { 
+              case 0: randoBio = "Him good."; break;  
+              case 1: randoBio = "He's aight."; break; 
+              case 2: randoBio = "Him good."; break;
+              default: randoBio = "Decent guy." 
+          }
+          
+          document.getElementById("div8").innerHTML = randoBio + "<br/><br/>";
+        } 
+  
             
           //-->
           </script>
