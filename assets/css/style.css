@@ -2186,7 +2186,8 @@ body { background-color: #000; color:#ccc;}
 .bio {}
 .selector { font-size:12pt; padding:1px; margin:1px; border: 0px #999 solid; }
 .selection { border:1px #999 solid; padding:5px; border-radius:5px; }
-#div2, #div3, #div4, #div5, #div6, #div7 { display: none; }
+#div2, #div3, #div4, #div5, #div6, #div7, #div8 { display: none; }
+#div8 { text-align: center; }
 .divide { border: 1px solid #444; padding:0px; margin:0px; width:70%; margin:auto; }
 
 .subscribe-button { background-color: #069; color:#fff; }
