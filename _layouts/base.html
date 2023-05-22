@@ -11,6 +11,9 @@
     {%- include header.html -%}
 
 
+
+
+
       
 
         <main id="main"  class="page-content" aria-label="Content">
@@ -23,7 +26,12 @@
                 <li><a href="../">Home</a></li>
                 <li>Resources</li>
               </ol>
-              <h2>The SOFG Framework</h2>
+              <h2>  {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+              {%- endfor -%}</h2>
       
             </div>
           </section><!-- End Breadcrumbs -->
