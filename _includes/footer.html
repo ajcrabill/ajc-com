@@ -1,39 +1,88 @@
-<footer class="site-footer h-card">
-  <file src="includes/footer.html" />
+ <!-- ======= Footer ======= -->
+ <footer id="footer"  class="site-footer h-card">
 
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
 
-  <div class="wrapper">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Student Outcomes<br/>Focused Governance<span>.</span></h3>
+          <p>
+            <strong>General Inquiries:</strong><a href="mailto:info@studentoutcomesfocused.org?subject=Re:+Student+Outcomes+Focused+Governance"> info at studentoutcomesfocused.org</a><br>
+            <strong>Coaching Related:</strong><a href="mailto:coach@studentoutcomesfocused.org?subject=Re:+Find+Or+Become+An+SOFG+Coach"> coach at studentoutcomesfocused.org</a><br>
+          </p>
+        </div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>For School Systems</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="../coach">Find A Coach</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="../framework">Board Self Evaluations</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="../resources">Resources</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="http://www.GreatOnTheirBehalf.com">Recommended Book</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="../contact">Contact</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="../members">Member Login</a></li>
+          </ul>
+        </div>        
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>For Coaches</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="../certification">Become An SOFG Coach</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="../framework">The SOFG Framework</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="../resources">Recommended Reading</a></li>
+          </ul>
+
+          <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+          <div class="wrapper">
+        
+            <div class="footer-col-wrapper">
+              <div class="footer-col">
+                <p class="feed-subscribe">
+                  <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+                    <svg class="svg-icon orange">
+                      <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg><span>Subscribe</span>
+                  </a>
+                </p>
+              {%- if site.author %}
+                <ul class="contact-list">
+                  {% if site.author.name -%}
+                    <li class="p-name">{{ site.author.name | escape }}</li>
+                  {% endif -%}
+                  {% if site.author.email -%}
+                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                  {%- endif %}
+                </ul>
+              {%- endif %}
+              </div>
+              <div class="footer-col">
+                <p>{{ site.description | escape }}</p>
+              </div>
+            </div>
+        
+            <div class="social-links">
+              {%- include social.html -%}
+            </div>
+        
+          </div>
+
       </div>
     </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
-
   </div>
 
-</footer>
+  <div class="container d-md-flex py-4">
+
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Council of the Great City Schools & airick journey crabill</span></strong>. All Rights Reserved
+      </div>
+    </div>
+
+
+  </div>
+</footer><!-- End Footer -->
+
+
+
