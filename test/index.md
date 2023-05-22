@@ -1,8 +1,7 @@
 ---
-layout: page
 toplevel: Resources
 nextlevel: Glossary
-title: This is only a test
+title: "This is only a test"
 author: ajc
 ajcrabill: gorgeous
 ---
