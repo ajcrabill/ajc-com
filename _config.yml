@@ -1,2 +1,8 @@
 theme: minima
-title: airick journey crabill
+title: "airick journey crabill"
+gems:
+- jekyll-seo-tag
+permalink: date
+posts:
+  output: true
+  
