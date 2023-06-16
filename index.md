@@ -5,13 +5,16 @@ summary: "This is only the beginning"
 toplevel: Main
 ---
 
-<h2><strong>Authentic student leadership is transformative.<br/>
-Authentic restorative practices are transformative.</strong></h2><br/>
+<center>
+<div class="col-xl-auto">
+  <div class="hero-line">Student outcomes don't change<br/>until adult behaviors change.</div>
+<div>
+  <img src="../ajc-com/assets/img/dark-hero.png" height="600px">
+</div>
+<br/><br/><br/><br/>
+<form action="https://formspree.io/f/xayzdydv" method="POST"><input type="hidden" value="ajc subscribe form" name="form">
+  <span class=""><input type="email" value="email" name="email"><button type="submit" class="subscribe-button">subscribe</button></span>
+  </form>
 
-<h4>We are committed to merging and deploying both.<br/>
-When we trust students to lead in a restorative way,<br/>
-powerful things can happen. But schools rarely do.<br/><br/>
-<strong>We want to help change that.</strong></h4><br/>
-
-<a href="/framework" class="btn-get-started scrollto">The SLRP Framework</a> 
-<a href="/resources" class="btn-get-started scrollto">Learn More</a>               
+</div>
+  </center>
