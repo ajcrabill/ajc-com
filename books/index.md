@@ -6,7 +6,7 @@ toplevel: Books
 # toplevellink: /bio
 ---
 
-<div width="100%">
+<div width="100%" style="border: 1px solid #ff0;">
 
    <div class="bookcell">  
       <a href="https://www.amazon.com/Great-Their-Behalf-School-Effective/dp/154453759X/"><img border="0" class="bookimg" data-original-height="868" data-original-width="618" height="320" src="../assets/img/gotb-flat-cover.jpg" width="200" /></a><br />
