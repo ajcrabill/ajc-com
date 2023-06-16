@@ -6,7 +6,7 @@ toplevel: Books
 # toplevellink: /bio
 ---
   
-
+ <div class="booktable">
 
    <div class="bookcell">  
       <a href="https://www.amazon.com/Great-Their-Behalf-School-Effective/dp/154453759X/"><img border="0" class="bookimg" data-original-height="868" data-original-width="618" height="320" src="../assets/img/gotb-flat-cover.jpg" width="200" /></a><br />
@@ -20,11 +20,12 @@ toplevel: Books
  </div>
    
  <div class="bookcell">
-      <img border="0" class="bookimg" data-original-height="396" data-original-width="263" height="320" src="../assets/img/rogue-handbook-cover.jpeg" width="200" /><br />
+      <img border="0" class="bookimg" data-original-height="396" data-original-width="263" height="320" src="../assets/img/rogue-handbook-cover.jpeg" width="200"/> <br />
   <br/> <ul><li>Rogue School Board Member's Handbook</li>
      <li>Available September 2024</li></ul>
  </div>
 
+</div>
 
 
 
