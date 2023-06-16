@@ -2196,7 +2196,7 @@ body { background-color: #000; color:#ccc;}
 
 .inner-page .container .booktable { float:left; }
 .booktable { border-width:0px; padding: 0px; margin: 0px; display:flex; vertical-align:top; border: 0px #f00 solid; }
-.bookcell { padding:15px; margin: 30px; vertical-align:top; border: 0px #0f0 solid; width:200px; }
+.bookcell { padding:15px; margin: 30px; vertical-align:top; border: 0px #0f0 solid; width:200px; text-align: left; }
 .bookimg { border: 1px solid #fff; }
 
 .crumb { color:#069; }
