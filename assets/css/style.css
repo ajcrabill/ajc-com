@@ -2158,7 +2158,7 @@ section {
 .hero-line { font-size: 40px; font-family: Quicksand, arial, san-serif !important; color:#fff; }
 
 footer .container { background-color: #000; padding: 15px; border-color:#000; border-width:1px; border-style:solid; border-radius: 15px;}
-.breadcrumbs .container { background-color: #000; padding: 15px; border-color:#333; border-width:1px; border-style:solid; border-radius: 15px;}
+.breadcrumbs .container { background-color: #000; padding: 15px; border-color:#333; border-width:1px; border-style:solid; border-radius: 15px; font-family: Quicksand; }
 
 .inner-page .container { background-color: #111; padding: 15px; border-radius: 15px;}
 
