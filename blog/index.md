@@ -1,11 +1,9 @@
 ---
 layout: post
-title: 
+title: Recent Blog Posts
 toplevel: Blog
 ---
 
-<br/>
-<h1>Recent Blog Posts</h1>
 <ul>
 <li><a href="/ajc-com{{site.posts[3].url}}">{{ site.posts[3].title }}</a>
     <ul>
