@@ -1,17 +1,30 @@
 ---
 layout: post
-title: Recent Blog Posts 
+title: 
 toplevel: Blog
 ---
 
 <br/>
-<h5>{{ site.posts[3].title }}</h5>
+<h5>Recent Blog Posts</h5>
+<ul>
+<li>{{ site.posts[3].title }} • 
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-{{ site.posts[3].date | date: date_format }} • {{ site.posts[3].author }}<br/><br/>
+{{ site.posts[3].date | date: date_format }} • {{ site.posts[3].author }}<br/>
+{{ site.posts[3].content | strip_html | truncatewords: 50 }}<br/></li>
 
-{{ site.posts[3].content }}<br/><br/>
+<li>{{ site.posts[0].title }} • 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{{ site.posts[0].date | date: date_format }} • {{ site.posts[0].author }}<br/>
+{{ site.posts[0].content | strip_html | truncatewords: 50 }}<br/></li>
 
-<h5>Recent Posts</h5>
+<li>{{ site.posts[4].title }} • 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{{ site.posts[4].date | date: date_format }} • {{ site.posts[4].author }}<br/>
+{{ site.posts[4].content | strip_html | truncatewords: 50 }}<br/></li>
+
+</ul><br/>
+
+<h5>All Blog Posts</h5>
 <ul>
   {% for post in site.posts %}
   <li>
