@@ -4,9 +4,13 @@ title: Recent Posts
 toplevel: Blog
 ---
 
-{{ post[1].title }}<br/><br/>
 
-{{ site.posts[1].title }}<br/><br/>
+{{ site.posts[3].title }}<br/>
+{{ site.posts[3].date }} • {{ site.posts[3].author }}<br/><br/>
+
+{{ site.posts[3].excerpt }}<br/><br/>
+
+{{ site.posts[3].content }}<br/><br/>
 
 
 <ul>
