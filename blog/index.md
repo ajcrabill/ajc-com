@@ -4,6 +4,9 @@ title: Recent Posts
 toplevel: Blog
 ---
 
+{{ post[1].title }}<br/><br/>
+
+
 <ul>
   {% for post in site.posts %}
   <li>
