@@ -5,10 +5,9 @@ toplevel: Blog
 ---
 
 
-{{ site.posts[3].title }}<br/>
-{{ site.posts[3].date }} • {{ site.posts[3].author }}<br/><br/>
-
-{{ site.posts[3].excerpt }}<br/><br/>
+<h5>{{ site.posts[3].title }}</h5><br/>
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{{ site.posts[3].date | date: date_format }} • {{ site.posts[3].author }}<br/><br/>
 
 {{ site.posts[3].content }}<br/><br/>
 
