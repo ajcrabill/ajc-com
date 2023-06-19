@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Recent Posts 
+title: Recent Blog Posts 
 toplevel: Blog
 ---
 
-
-<h5>{{ site.posts[3].title }}</h5><br/>
+<br/>
+<h5>{{ site.posts[3].title }}</h5>
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 {{ site.posts[3].date | date: date_format }} • {{ site.posts[3].author }}<br/><br/>
 
 {{ site.posts[3].content }}<br/><br/>
 
-
+<h5>Recent Posts</h5>
 <ul>
   {% for post in site.posts %}
   <li>
