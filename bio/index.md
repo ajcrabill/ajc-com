@@ -87,6 +87,8 @@ toplevel: Bio
      
    Recent School Board Governance Related Media
    <ul style="text-align: left;">
+     <li><a href="https://www.abqjournal.com/opinion/aps-is-investing-in-better-student-outcomes/article_22707758-2ccc-11ee-82a5-83cabcc5941d.html">Investing In Better Student Outcomes</a></li>
+     <li><a href="https://www.chiefsforchange.org/2023/07/26/new-brief-provides-insights-on-the-state-of-the-superintendency/">State of the Superintendency</a></li>
      <li><a href="https://www.buzzsprout.com/1842285/12846882-effective-schools-systems-and-school-outcomes-vs-adult-inputs-with-aj-crabill">Effective School Systems & Student Outcomes</a></li>
      <li><a href="https://content.act2network.com/act-2-network-content/putting-student-needs-first">Putting Student Needs First</a></li>
      <li><a href="https://www.cognia.org/leader-chat-board-governance-and-leadership-implications-with-aj-crabill/">Board Governance &amp; Leadership Implications</a></li>
@@ -98,6 +100,7 @@ toplevel: Bio
 
    Recent Restorative Practices Related Media
    <ul style="text-align: left;">
+            <li><a href="https://www.pastfoundation.org/post/198-rethinking-discipline-a-journey-into-student-led-restorative-education-with-aj-crabill-part-1">Rethinking Discipline</a></li>
             <li><a href="https://podcasts.apple.com/us/podcast/episode-15-school-transformation-begins-with-the-adults/id1653176434?i=1000613201573">School Transformation Begins with Adults</a></li>
             <li><a href="https://www.dispatch.com/story/special/2023/05/05/student-project-matt-barnes-feels-student-led-conflict-resolution-needed-in-schools-angel-pinto/70170843007/">Student-led Conflict Resolution</a></li>
             <li><a href="https://twitter.com/mnicholson_mike/status/1657194523213086721">Student Panel</a></li>
