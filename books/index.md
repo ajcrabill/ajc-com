@@ -27,7 +27,7 @@ toplevel: Books
 </div>
    
 <div class="bookcell" style="float: left;">
-<img border="0" class="bookimg" height="320" src="../assets/img/clarify%20priorities%20-%20setting%20goals%20&amp;%20guardrails%20-%20book%20cover.png" width="400" /><br />
+<img border="0" class="bookimg" height="320" src="../assets/img/clarify-priorities.png" width="400" /><br />
     <ul><li>Effective School Boards - Implementation Workbook Series</li>
       <li>Available August 2024</li></ul>
 </div>
