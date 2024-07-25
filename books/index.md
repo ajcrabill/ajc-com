@@ -26,7 +26,7 @@ toplevel: Books
       <li>Available October 2024</li></ul>
 </div>
    
-<div class="bookcell" style="float: left;">
+<div class="bookcell">
 <img border="0" class="bookimg" height="320" src="../assets/img/clarify-priorities.png" width="400" /><br />
     <ul><li>Effective School Boards - Implementation Workbook Series</li>
       <li>Available August 2024</li></ul>
