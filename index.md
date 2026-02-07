@@ -9,7 +9,7 @@ toplevel: Main
 <div class="col-xl-auto">
   <div class="hero-line">Student outcomes don't change<br/>until adult behaviors change.</div>
 <div>
-  <img src="../ajc-com/assets/img/dark-hero.png" height="600px">
+  <img src="/assets/img/dark-hero.png" height="600px">
 </div>
 <br/><br/><br/><br/>
 <form action="https://formspree.io/f/xayzdydv" method="POST"><input type="hidden" value="ajc subscribe form" name="form">
